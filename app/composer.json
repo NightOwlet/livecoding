@@ -1,0 +1,17 @@
+{
+    "name": "night0wlet/livecoding",
+    "description": "project for interview",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "owlet",
+            "email": "sigr88@gmail.com"
+        }
+    ],
+    "require": {}
+}
