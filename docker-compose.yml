@@ -17,8 +17,6 @@ services:
       context: .
       dockerfile: ./php/Dockerfile
     container_name: php83-container
-    ports:
-      - "9103:9003"
     volumes:
       - ./app:/var/www/project
     networks:
